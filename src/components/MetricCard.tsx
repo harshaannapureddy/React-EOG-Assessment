@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, Typography } from '@material-ui/core';
 
-const colors = ['#000000', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#654321', '#a65628', '#f781bf'];
 const useStyles = makeStyles({
     root: {
         width: '100%',

@@ -88,8 +88,13 @@ const EOGMetrics = () => {
         query: queryMetricSubscription,
     });
 
-    const handleChange = (data: any) => {
-        setSelectedChartsOptions(data)
+    const selectedOption = (option: any) => {
+        if(option === null){
+            setSelectedChartsOptions([])
+        }
+        else{
+            setSelectedChartsOptions(option)
+        }
     }
 
     useEffect(() => {
@@ -144,7 +149,7 @@ const EOGMetrics = () => {
                     <div style={{ marginTop: '30px' }}>
                         <Select
                             placeholder='Select metric'
-                            onChange={handleChange}
+                            onChange={selectedOption}
                             isMulti={isMultiSelect}
                             closeMenuOnSelect
                             options={dropdownMenu}
