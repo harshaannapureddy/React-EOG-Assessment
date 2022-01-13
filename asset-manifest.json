@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-EOG-Assessment/static/css/main.86647b6a.css",
+    "main.js": "/React-EOG-Assessment/static/js/main.1d17892f.js",
+    "static/js/787.772040c9.chunk.js": "/React-EOG-Assessment/static/js/787.772040c9.chunk.js",
+    "index.html": "/React-EOG-Assessment/index.html",
+    "main.86647b6a.css.map": "/React-EOG-Assessment/static/css/main.86647b6a.css.map",
+    "main.1d17892f.js.map": "/React-EOG-Assessment/static/js/main.1d17892f.js.map",
+    "787.772040c9.chunk.js.map": "/React-EOG-Assessment/static/js/787.772040c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86647b6a.css",
+    "static/js/main.1d17892f.js"
+  ]
+}
